@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+}
+
+img {
+    width: 238px;
+    height: 340px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 110px;
+}
+
+
+.box-title {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.box-text {
+    grid-area: 1 / 3 / 2 / 5;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+.box-text h3 {
+    margin-bottom: 10px;
+}
+
+.card-1 {
+    grid-area: 2 / 2 / 3 / 3;
+    position: absolute;
+    left: 240px;
+    top: 330px;
+
+}
+
+.card-2 {
+    grid-area: 2 / 3 / 3 / 4;
+    position: absolute;
+    left: 570px;
+    top: 429px;
+}
+
+.card-3 {
+    grid-area: 2 / 4 / 3 / 5;
+    position: absolute;
+    left: 900px;
+    top: 330px;
+}
+
+.card-4 {
+    grid-area: 3 / 2 / 4 / 3;
+    position: absolute;
+    left: 240px;
+    top: 845px;
+}
+
+.card-5 {
+    grid-area: 3 / 3 / 4 / 4;
+    position: absolute;
+    left: 570px;
+    top: 944px;
+}
+
+.card-6 {
+    grid-area: 3 / 4 / 4 / 5;
+    position: absolute;
+    left: 900px;
+    top: 845px;
+}
+
+.box-card .title {
+    writing-mode: vertical-lr;
+    float: right;
+}
+
+.footer {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 547px;
+    top: 1448px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A9A9A9;
+}
